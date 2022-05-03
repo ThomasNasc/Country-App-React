@@ -1,0 +1,39 @@
+.Header {
+  display: flex;
+  width: 100%;
+ 
+  justify-content: space-between;
+
+  align-items: center;
+  button {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    svg{
+      width: 16px;margin: 3px;
+
+    }
+  }
+  h1 {
+    font-size: 16px;
+    padding: 15px;
+    margin-left: 5%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .Header {
+    button {
+      padding: 15px;
+
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 25px;
+    }
+  }
+}

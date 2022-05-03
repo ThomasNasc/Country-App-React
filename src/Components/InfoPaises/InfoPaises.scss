@@ -1,0 +1,86 @@
+.Infopais {
+  display: flex;
+  flex-direction: column;
+  .ButtonBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 0px 0px 5px #0000009d;
+  }
+  img {
+    width: 90%;
+    margin-bottom: 3%;
+  }
+  .Atributes {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    .InformationsPart {
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 7px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .Information {
+      .borderCountries {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        p {
+          margin-right: 10px;
+        }
+        .NameBorder {
+          padding: 5px 15px 5px 15px;
+
+          margin: 5px;
+          text-decoration: none;
+          box-shadow: 0px 0px 5px #0000009d;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Infopais {
+    .Atributes {
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+
+      margin-right: 5%;
+    }
+    .Information {
+      margin-right: 5%;
+
+      .Informations {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+    }
+    img {
+      width: 60%;
+      min-width: 500px;
+      max-width: 600px;
+      margin-right: 5%;
+    }
+  }
+}

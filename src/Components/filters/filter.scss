@@ -1,0 +1,32 @@
+.Filter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+
+  .SearchBar {
+    width: 90%;
+    border: none;
+    max-width: 450px;
+    margin-left: 5%;
+    height: 50px;
+    margin-top: 40px;
+    padding-left: 15px;
+  }
+  .SearchBar::placeholder {
+
+    color: rgb(119, 119, 119);
+  }
+
+  .Selection {
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    width: 200px;
+    // text-align: center;
+    padding-left: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}

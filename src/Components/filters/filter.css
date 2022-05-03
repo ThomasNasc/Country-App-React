@@ -1,0 +1,49 @@
+.Filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Filter .SearchBar {
+  width: 90%;
+  border: none;
+  max-width: 450px;
+  margin-left: 5%;
+  height: 50px;
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+.Filter .SearchBar::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.Filter .SearchBar:-ms-input-placeholder {
+  color: #777777;
+}
+
+.Filter .SearchBar::-ms-input-placeholder {
+  color: #777777;
+}
+
+.Filter .SearchBar::placeholder {
+  color: #777777;
+}
+
+.Filter .Selection {
+  height: 50px;
+  margin-top: 40px;
+  border: none;
+  width: 200px;
+  padding-left: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+/*# sourceMappingURL=filter.css.map */
